@@ -1,0 +1,9 @@
+applications:
+- name: nginx_test
+  instances: 1
+  memory: 64M
+  disk_quota: 1024M
+  routes:
+  - route: nginx-test.apps.gcp.borgescloud.com
+  buildpack: staticfile_buildpack_v2
+  stack: cflinuxfs2

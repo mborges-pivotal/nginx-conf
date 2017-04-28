@@ -1,0 +1,3 @@
+root: public
+#location_include: /home/vcap/app/public/nginx/conf/includes/*.conf
+location_include: includes/*.conf
